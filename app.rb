@@ -13,6 +13,6 @@ class App < Sinatra::Base
     @pf = params[:pf]
     @sf = params[:sf]
     @center = params[:center]
-    
+    erb :team
   end
 end
